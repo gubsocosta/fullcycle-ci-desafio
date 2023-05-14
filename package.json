@@ -6,6 +6,12 @@
   "scripts": {
     "test": "jest --coverage"
   },
+  "jest": {
+    "coveragePathIgnorePatterns": [
+      "/node_modules"
+    ],
+    "testEnvironment": "node"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
