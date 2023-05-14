@@ -1,9 +1,9 @@
-const calculator = require('./calculator');
+const { sum, sub } = require('./calculator');
 
 test('should sum two numbers', () => {
-  expect(calculator.sum(2, 3)).toBe(5);
+  expect(sum(2, 3)).toBe(5);
 });
 
 test('should subtract two numbers', () => {
-  expect(calculator.sub(5, 3)).toBe(2);
+  expect(sub(5, 3)).toBe(2);
 });
